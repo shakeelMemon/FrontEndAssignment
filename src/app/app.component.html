@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<form class="form-horizontal" role="form" name="createStockItemIssuedForm" novalidate>
+
+  <br/>
+  <div class="row">
+          <div class="form-group">
+              <div class="col-md-5">
+                  <button type="button" class="btn btn-primary btn-lg" placement="top" (click)="getMessage('Save clicked')" triggers="click:blur" ngbTooltip="{{tooltipValue}}">Save</button>
+              </div>  
+          </div>
+      
+          <div class="form-group">
+            <div class="col-md-5">
+              <button type="button" class="btn btn-warning btn-lg" placement="top" (click)="getMessage('Cancel clicked')" triggers="click:blur" ngbTooltip="{{tooltipValue}}">Cancel </button>
+            </div>
+          </div>   
+
+  </div>
+
+</form>
